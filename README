@@ -1,0 +1,22 @@
+SQS:
+Create a queue and set it to FIFO.
+
+EC2:
+Create two instances for ec2 and once they are created install maven and git on both
+
+sudo yum install  maven 
+sudo yum install  git
+
+Credentials:
+mkdir .aws
+vi .aws/credentials
+Enter aws credentials
+
+Clone Project:
+git clone https://github.com/brianchin-sudo/Text.git
+
+cd Text
+mvn package
+
+To run Application:
+java -jar target/Car-1.0-SNAPSHOT.jar CarRecognition
