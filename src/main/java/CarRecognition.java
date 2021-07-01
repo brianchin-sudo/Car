@@ -34,7 +34,7 @@ public class CarRecognition {
 //        String bucket_name = args[0];
 //        String bucket_name = "testing-bucket-brian";
         String bucket_name = "njit-cs-643";
-        String queueUrl = "https://sqs.us-east-1.amazonaws.com/843440522682/testing.fifo";
+        String queueUrl = "https://sqs.us-east-1.amazonaws.com/323397123849/cs643pa1.fifo";
 
 
         System.out.format("Objects in S3 bucket %s:\n", bucket_name);
